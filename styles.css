@@ -1,0 +1,43 @@
+.container, .widecontainer {
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.container > div {
+    background-color: lightgray;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.widecontainer > div {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+body {
+    margin: 20px;
+}
+
+ul {
+    font-weight: 600;
+}
+ul > ul {
+    font-weight: 500;
+}
