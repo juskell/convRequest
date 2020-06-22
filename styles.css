@@ -39,5 +39,10 @@ ul {
     font-weight: 600;
 }
 ul > ul {
-    font-weight: 500;
+    font-weight: lighter;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
 }
